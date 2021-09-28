@@ -43,3 +43,25 @@ create table if not exists Usuario (
 - Depois de criar o banco de dados, clique em "Executar".
 - Volte para o http://localhost/tecweb/
 - Pode cadastrar o usuário.
+
+
+## Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [php](https://www.php.net/)
+- [Materialize](https://materializecss.com/)
+
+## Resultado do Projeto
+
+<p align="center">
+  <img alt="dashboard" src="./ImagesMd/Forms.png" width="70%">
+</p>
+
+<p align="center">
+  <img alt="dashboard" src="./ImagesMd/userList.png" width="70%">
+</p>
+- Caso não tenha usuários listados, ao acessar a pagina de usuários, apareça a menssagem: "Nenhum usuário cadastrado."
+<p align="center">
+  <img alt="dashboard" src="./ImagesMd/NotFound.png" width="70%">
+</p>

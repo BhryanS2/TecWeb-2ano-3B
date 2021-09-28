@@ -1,0 +1,6 @@
+Turma: Informática D;
+Alunos:
+  1. Lorrana Cristine Domingues;
+  2. Lívia de Flório Amaro;
+  3. Luísa Manoela Romão Salles;
+  4. Bhryan Stepenhen da Cruz;
