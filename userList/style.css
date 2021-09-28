@@ -1,0 +1,52 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.ListNotFound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.ListNotFound h1  {
+  width: 100%;
+  text-align: center;
+}
+
+.card .card-image span.card-title.padding {
+  padding: 0 1rem;
+  background-color: rgba(71, 71, 71, 0.8);
+}
+
+.card .card-image img {
+  padding: 1rem;
+  border-radius: 50%;
+  object-fit: cover;
+  max-width: 300px;
+}
+.card-image {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+@media (max-width: 800px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    display: block;
+  }
+}
